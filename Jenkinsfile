@@ -4,7 +4,7 @@ pipeline {
         
         DOCKER_IMAGE_NAME = "prasannapatil/train-schedule"
     }
-    //
+    
     stages {
         stage('Build') {
             steps {
@@ -13,7 +13,7 @@ pipeline {
                 archiveArtifacts artifacts: 'dist/trainSchedule.zip'
             }
         }
-        //
+        
         stage('Build Docker Image') {
             when {
                 branch 'master'
