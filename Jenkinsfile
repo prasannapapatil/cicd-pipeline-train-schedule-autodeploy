@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    //update
+    //update git hub
     environment {
         DOCKER_IMAGE_NAME = "prasannapatil/train-schedule"
     }
