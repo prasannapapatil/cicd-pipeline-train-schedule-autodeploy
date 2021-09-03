@@ -4,6 +4,7 @@ pipeline {
         
         DOCKER_IMAGE_NAME = "prasannapatil/train-schedule"
     }
+    //
     stages {
         stage('Build') {
             steps {
