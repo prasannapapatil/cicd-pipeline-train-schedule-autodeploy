@@ -1,7 +1,7 @@
 pipeline {
     agent any
+    //update
     environment {
-        //
         DOCKER_IMAGE_NAME = "prasannapatil/train-schedule"
     }
     
